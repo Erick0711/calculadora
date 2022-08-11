@@ -1,0 +1,118 @@
+* { 
+    margen :  0 ; 
+    relleno :  0 ; 
+    tamaño : cuadro de borde; 
+} 
+: raíz { 
+    --blanco :  # e2dada ; 
+    --negro :  # 111010 ; 
+    --verde :  # 34994ae7 ; 
+    --verde-2 :  # b6d17c ; 
+    --azul-1 :  # 2571b4 ; 
+    --azul-2 :  # 1e63a0 ; 
+} 
+
+/* Tipografía */ 
+. segoe-200 { 
+    familia de fuentes :  'Segoe UI' , Tahoma , Ginebra , Verdana , sans-serif; 
+    peso de fuente :  200 ; 
+} 
+. segoe-400 { 
+    familia de fuentes :  'Segoe UI' , Tahoma , Ginebra , Verdana , sans-serif; 
+    peso de fuente :  400 ; 
+} 
+. segoe-600 { 
+    familia de fuentes :  'Segoe UI' , Tahoma , Ginebra , Verdana , sans-serif; 
+    peso de fuente :  600 ; 
+} 
+/* Flexionar */ 
+. flexionar { 
+    pantalla : flexible; 
+} 
+. justificar-contenido-centro { 
+    justificar-contenido : centro; 
+} 
+. justificar-contenido-inicio { 
+    justificar-contenido : inicio; 
+} 
+. justificar-contenido-fin { 
+    justificar-contenido : fin; 
+} 
+. alinear-elemento-centro { 
+    alinear elementos : centro; 
+} 
+. f-dirección-c { 
+    dirección de flexión : columna; 
+} 
+. dirección-f-r { 
+    dirección de flexión : fila; 
+} 
+/* BRECHA */ 
+. f-brecha-10 { 
+    espacio :  10 px ; 
+} 
+. f-brecha-15 { 
+    espacio :  15 px ; 
+} 
+. f-brecha-20 { 
+    espacio :  20 px ; 
+} 
+. f-brecha-25 { 
+    espacio :  25 px ; 
+} 
+
+/* RELLENO */ 
+. p-5 { 
+    relleno :  5 px ; 
+} 
+. p-8 { 
+    relleno :  10 px ; 
+} 
+. p-12 { 
+    relleno :  12 px ; 
+} 
+. p-20 { 
+    relleno :  20 px ; 
+} 
+/* recursos humanos */ 
+. mt-5 { 
+    margen superior :  5 px ; 
+} 
+. mt-10 { 
+    margen superior :  10 px ; 
+} 
+. mt-15 { 
+    margen superior :  15 px ; 
+} 
+. mt-20 { 
+    margen superior :  20 px ; 
+} 
+/* ANCHO */ 
+. en-10 { 
+    ancho :  10 % ; 
+} 
+. en-20 { 
+    ancho : 20 % ; 
+} 
+. en-50 { 
+    ancho :  50 % ; 
+} 
+. w-80 { 
+    ancho :  80 % ; 
+} 
+. en-100 { 
+    ancho :  100 % ; 
+} 
+
+/* ALTURA */ 
+. h-10 { 
+ altura :  10vh _ ; 
+} 
+. h-50 { 
+    altura :  50vh _ ; 
+} 
+. h-100 { 
+    altura :  100 vh ; 
+} 
+
+/* APORTE */ 
